@@ -4,59 +4,72 @@
     <div class="col-md-12">
         <h2  class="w3-text-blue">MIS 363 Fall 2016 Formative Assignment01-Creating Information</h2>
 
-        <form class="form-inline">
-            <input name="InstID" type="hidden" id="InstID" value="00617282">
-
+        <form class="form-horizontal">
             <div class="form-group">
-                <label class="w3-label w3-text-blue" for="email">Email:</label>
-                <!-- Enter your winona.edu email address in the VALUE field below   GROK -->
-                <input type="text" class="form-control" id="email" name="email" placeholder="Jane Doe" value="ppaulson@winona.edu" />
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="email">Email:</label>
+                <div class="col-md-10">
+                    <!-- Enter your winona.edu email address in the VALUE field below   GROK -->
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Jane Doe" value="ppaulson@winona.edu" />
+                </div>
             </div>
 
             <div class="form-group">
-                <label class="w3-label w3-text-blue" for="FirstName">First Name:</label>
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="FirstName">First Name:</label>
+                <div class="col-md-10">
                 <!-- Enter your first name in the VALUE field below   GROK -->
                 <input class="w3-input w3-border form-control" name="FirstName" type="text" id="FirstName" value="EnterYourFirstName">
+                    </div>
             </div>
 
             <div class="form-group">
-                <label class="w3-label w3-text-blue" for="LastName">Last Name:</label>
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="LastName">Last Name:</label>
+                <div class="col-md-10">
                 <!-- Enter your last name in the VALUE field below   GROK -->
                 <input class="w3-input w3-border form-control" name="LastName" type="text" id="LastName" value="EnterYourLastName">
+                    </div>
             </div>
 
             <div class="form-group">
-                <label class="w3-label w3-text-blue" for="StarID">StarID:</label>
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="StarID">StarID:</label>
+                <div class="col-md-10">
                 <!-- Enter your starID in the VALUE field below   GROK -->
                 <input class="w3-input w3-border form-control" name="StarID" type="text" id="StarID" value="EnterYourStarID">
+                    </div>
             </div>
+
+            <div class="form-group">
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="Semester">Semester:</label>
+                <div class="col-md-10">
+                <input class="w3-input w3-border form-control" name="semester" type="text" id="semester" value="Fall 2016">
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="Class">Class:</label>
+                <div class="col-md-10">
+                <input class="w3-input w3-border form-control" name="class" type="text" id="class" value="MIS 362">
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="Section">Section:</label>
+                <div class="col-md-10">
+                <!-- Enter your section in the VALUE field below   GROK -->
+                <input class="w3-input w3-border form-control" name="section" type="text" id="section" value="01">
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <label class="w3-label w3-text-blue col-md-2 control-label" for="Assignment">Assignment:</label>
+                <div class="col-md-10">
+                <input class="w3-input w3-border form-control" name="assignment" type="text" id="Assignment" value="Formative01">
+                    </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <input name="InstID" type="hidden" id="InstID" value="00617282">
         </form>
     </div>
-
-    <div class="row">
-      <div class="col-lg-3">
-        <label class="w3-label w3-text-blue" for="Semester">Semester:</label>
-        <input class="w3-input w3-border" name="semester" type="text" id="semester" value="Fall 2016">
-     </div>
-      <div class="col-lg-3">
-        <label class="w3-label w3-text-blue" for="Class">Class:</label>
-        <input class="w3-input w3-border" name="class" type="text" id="class" value="MIS 362">
-      </div>
-      <div class="col-lg-3">
-        <label class="w3-label w3-text-blue" for="Section">Section:</label>
-        <!-- Enter your section in the VALUE field below   GROK -->
-        <input class="w3-input w3-border" name="section" type="text" id="section" value="01">
-      </div>
-      <div class="col-lg-3">
-        <label class="w3-label w3-text-blue" for="Assignment">Assignment:</label>
-        <input class="w3-input w3-border" name="assignment" type="text" id="Assignment" value="Formative01">
-      </div>
-    </div>
-    <div class="row">
-    <div class="col-lg-12">
-        <input class="w3-input w3-border w3-text-red" type="submit" name="Submit" value="Submit">
-    </div>
-  </div>
 
   <div id="points">60 Points </div>
 
